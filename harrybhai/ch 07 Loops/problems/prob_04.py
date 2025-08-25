@@ -1,0 +1,14 @@
+'''
+Write a program to find whether a given number is prime or not. 
+'''
+ 
+num=int (input("Enter the number : "))
+flag =1
+for i in range (2,int ((num/2)+1)) :
+    if (num%i==0):
+        flag=0
+        break
+if (flag):
+    print (f"{num} is a prime number.")
+else :
+    print (f"{num} is not a prime number.")
