@@ -39,7 +39,7 @@ if the given key is not present , it will be added ..
 '''
 
 print ("BEfore update ",marks)
-marks.update({"harry":99,"Raunak":56})
+marks.update({ "harry":99,"Raunak":56})
 # it will update harry value and add raunak 
 print ("After update ",marks)
 
@@ -54,7 +54,7 @@ print (marks["harry2"]) but this will throw an error
 
 
 .get(key)	Safe way to access a value. Returns None if key not found
-.update()	Add or update one or more key–value pairs
+.update()	Add or update one or more key value pairs
 .pop(key)	Removes a key and returns its value
 .items()	Returns all (key, value) pairs as tuples
 .keys()	    Returns all keys in the dictionary

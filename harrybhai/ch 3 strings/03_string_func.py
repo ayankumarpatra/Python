@@ -15,7 +15,7 @@ str1 = "harry"
 count = str1.count("r") 
 # print(count)  # Output: 2
  
-# 4. the first character of a given string. 
+# 4. capitalize the first character of a given string. 
 # str1 = "harry" 
 capitalized_string = str1.capitalize() 
 print(capitalized_string)  # Output: "Harry" 

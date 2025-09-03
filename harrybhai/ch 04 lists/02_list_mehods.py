@@ -1,6 +1,6 @@
 randomlist=["hello","world",3.34,5,False]
 
-# not syntax is name =[ add the datatypes as you wish ]
+# note syntax is name =[ add the datatypes as you wish ]
 #access as like randomlist[1]or 2, .... 
 
 # also note as you cant change the existing string , but you can change the list like array 

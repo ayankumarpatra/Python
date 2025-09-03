@@ -12,7 +12,10 @@ set features
 1. no repeated elements , even if you give 
 2. sets are unsorted , if you give 3,6,2,7 it will store as it is without sorting  
 3. unindexed , cant access element by index , like str[0] first element , nothing such in set 
-4. no way to change items in the sets  , but you can remove
+4. no way to change items in the sets  , but you can remove or add elements (but not multiple element at one time)
+5. set can be of any datatype , not only number eg my_set = {"hi", "hello", "yes"} is a set of string , but note as like 
+    normal set , here also duplicate strings will be removed 
+6. set cant contain mix data type eg string+int or int+float +....eg st={"hi",5}  invalid
 '''
 s= {1,2,3,4,4,4,5,5,6}
 print (s)
