@@ -28,5 +28,12 @@ x,y,z=map(int,input("Enter thr 3 number seperated by space : ").split())
 Greatestofthree(x,y,z)
 
 2. Write a python program using function to convert Celsius to Fahrenheit.
+
 '''
 
+def celtofah(far):
+    cel=(5/9)*(far-32)
+    print(f"corresponding farhenheit temperature will be {cel}")
+
+ftemp=int(input("Enter thr farhenheit temperature : "))
+celtofah(ftemp)
