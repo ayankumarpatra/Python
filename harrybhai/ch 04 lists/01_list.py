@@ -1,5 +1,5 @@
 """
-like in strrings we usually do , only to print , we cant re assign 
+like in strings we usually do , only to print , we cant re assign 
 
 str = "Hello world"
 print (str[0]) #it will print h only ,
@@ -7,7 +7,7 @@ print (str[0]) #it will print h only ,
 str = "Hello world"
 print (str[0])
 
-# now lets learn lists , just kike arrays and structure combo , lets see 
+# now lets learn lists , just like arrays and structure combo , lets see 
 
 list1=("hello","world",3.34,5,False)
 

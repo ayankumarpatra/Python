@@ -17,4 +17,6 @@ print ("Hello World \"Ayan\" ")
 
 # similarly to print \ , we have to use \\ ... 
 # also if you initialize string by ' , similary then we have problem to print ' inside it ,
-# but in that case also /' you can print 
+# but in that case also \' you can print 
+
+# not / , remember 
