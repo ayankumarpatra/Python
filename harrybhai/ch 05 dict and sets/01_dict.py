@@ -1,5 +1,5 @@
 '''
-marks are just like structures in the c language , it just provide some basic details 
+here the dict marks are just like structures in the c language , it just provide some basic details 
 associated with the key , but rememebrr , we cant get the value by indexing like 
 
 arr[0] we get first element but here marks [0] will throw an error as here indexing here is 

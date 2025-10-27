@@ -53,8 +53,34 @@ print(random[0].strip(),random[1])
 
 Write a python program to display a user entered name followed by Good
 Afternoon using input () function.
-'''
+
 
 name = input("Enter the name : ")
 
 print(f"Good morning {name}, Have a great day ahead")
+
+
+Write a program to fill in a letter template given below with name and date.
+letter =
+Dear <|Name|>,
+You are selected!
+<|Date|>
+
+
+
+def Selection_Letter(name):
+    print(f"""Dear {name},
+                We are pleased to inform you that 
+                You Are Selected :) you did it ! """)
+name = input("Enter the name : ")
+Selection_Letter(name)
+
+
+dict 
+'''
+marks={
+    "Ayan":87,
+    "Raj":82,
+}
+
+print(marks["Ayan"])
