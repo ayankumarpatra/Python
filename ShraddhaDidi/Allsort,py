@@ -1,0 +1,55 @@
+# String characters enclosed in single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """).
+
+str_empty = ""
+str_content = "Hello, World!"
+print(f"String Empty: '{str_empty}', Content: '{str_content}'")
+
+# Strings are immutable. You cannot change a string after it's created. Any modification will result in a new string.
+
+
+# List An ordered collection of items which can be of different types, defined by square brackets ([])
+list_empty = []
+list_content = [1, 2, 3, "Hello", 5.5]
+print(f"List Empty: {list_empty}, Content: {list_content}")
+
+#Lists are mutable. You can change, add, or remove items after the list is created.
+
+
+# Tuple An ordered collection of items defined by parentheses (()), often used for fixed collections of items.
+
+tuple_empty = ()
+tuple_content = (1, 2, 3, "Hello", 5.5)
+print(f"Tuple Empty: {tuple_empty}, Content: {tuple_content}")
+
+# Tuples are immutable. You cannot change their content after creation.
+
+
+# Dictionary An unordered collection of key-value pairs defined by curly braces ({}).
+
+dict_empty = {}
+dict_content = {"name": "John", "age": 30, "city": "New York"}
+print(f"Dictionary Empty: {dict_empty}, Content: {dict_content}")
+
+
+# Set An unordered collection of unique items defined by curly braces ({}) or the set() function.
+set_empty = set()
+set_content = {1, 2, 3, "Hello", 4.5}
+print(f"Set Empty: {set_empty}, Content: {set_content}")
+#Sets are mutable. You can add or remove items after creation.
+
+
+# Bytes A sequence of bytes (an immutable sequence). Useful for binary data.
+
+byte_empty = b""
+byte_content = b"Hello"
+print(f"Byte Empty: {byte_empty}, Content: {byte_content}")
+
+'''
+
+Summary of Mutability
+
+- Immutable Types: String, Tuple, Byte
+
+- Mutable Types: List, Dictionary, Set
+
+'''

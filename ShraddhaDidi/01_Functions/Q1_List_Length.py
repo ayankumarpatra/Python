@@ -9,4 +9,4 @@ def printlength(Data):
     print("Size is ",len(Data))
 
 City=["Kolkata","Delhi"]
-printlength(City)
+print(City)
